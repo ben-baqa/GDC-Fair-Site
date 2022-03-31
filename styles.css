@@ -1,0 +1,58 @@
+:root{
+    --main-bg-col: #2a2d34;
+    --main-col: #ff5e5b;
+    --accent-col: #00cecb;
+
+    background-color: var(--main-bg-col);
+    color: var(--main-col);
+    font-family: clubFont;
+    font-kerning:none;
+}
+
+@font-face {
+    font-family: clubFont;
+    /* src: url(Harabara.ttf); */
+    src: url(BebasNeue.otf);
+}
+
+div {
+    display: flex;
+    flex: 1;
+}
+
+ol {
+    display: flex;
+    flex:1;
+    padding: 10vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border: var(--main-col);
+    text-align: center;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+    font-size: 10vw;
+    color: var(--main-col);
+}
+
+.game-list{
+    flex-direction: column;
+}
+
+a {
+    display: block;
+    flex: 1;
+    padding: 2vw;
+    margin: 1vw;
+
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: var(--accent-col);
+    color: var(--main-col);
+    font-size: 5vw;
+    text-decoration: none;
+    text-align: center;
+}
