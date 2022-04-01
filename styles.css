@@ -57,7 +57,7 @@ h1 {
     display: block;
     text-align: center;
     width: 100%;
-    font-size: 8vw;
+    font-size: 7vw;
     /* height: fit-content; */
     overflow:visible;
 }
@@ -106,4 +106,15 @@ a:hover {
     transform: scale(1.05);
     box-shadow: 0.25vw 0.25vw 1.25vw black;
     transition:all 0.05s ease-in;
+}
+
+.footer {
+    border-style: none;
+    box-shadow: none;
+}
+.footer:hover {
+    box-shadow: none;
+}
+.footer-im {
+    height: 15vw;
 }
